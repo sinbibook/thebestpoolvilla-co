@@ -334,7 +334,7 @@ hero.images[isSelected] 기준 (rebuild 후 window.initVisualSwiper() 재초기�
 | `data-facility-gallery`     | `.dimg ul`                        | `facilities[current].images[isSelected]` (대표 다음 **고정 2칸**, 없는 칸 placeholder, 2열 그리드) |
 | `data-facility-slides`      | `.vimg .spec-img .swiper-wrapper` | `facilities[]` (이미지 슬라이드, initSpecSwiper 재초기화)                                          |
 | `data-facility-titles`      | `.vimg .spec-tit`                 | `facilities[]` (txt-con: `btxt`=name, `stxt`='Special,')                                           |
-| `data-facility-texts`       | `.vimg .spec-txt .swiper-wrapper` | `facilities[]` (`0N. {name}` + description, `facility.html?id={id}`)                               |
+| `data-facility-texts`       | `.vimg .spec-txt .swiper-wrapper` | `facilities[]` (`0N. {name}`, `facility.html?id={id}`)                                             |
 
 - 하단 슬라이더 3영역(spec-img/tit/txt)은 동일 facilities[] 순서로 생성 후 `window.initSpecSwiper()` 재초기화(spec-txt↔spec-img thumbs 동기).
 - 이미지 없으면 `ImageHelpers` placeholder. `.dimg h4`(Healing Pension 등 영문)는 정적 유지(데이터 영문명 없음). 예약 버튼은 헤더 공통 `data-booking-link`(`property.realtimeBookingId`).
