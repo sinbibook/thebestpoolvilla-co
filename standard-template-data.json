@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.3.0",
-    "generatedAt": "2026-10-27T01:27:15.082611290Z",
+    "version": "1.4.0",
+    "generatedAt": "2026-10-27T01:30:42.208061699Z",
     "templateType": "trip_f",
     "propertyId": "39a16910-9919-4106-9eb6-c8e90d9daf19",
     "homepageId": "01a12e42-a139-7286-b296-a30b020f86d0"
@@ -1907,30 +1907,7 @@
         }
       },
       "popup": {
-        "popups": [
-          {
-            "id": "aad1059d-2130-46a4-b4a3-93b1bc4199e7",
-            "link": "",
-            "title": "",
-            "images": [
-              {
-                "id": "01a17af7-f6cb-726c-a7da-79c288154d71",
-                "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a12e42-a139-7286-b296-a30b020f86d0/popup/1793064433035-x16t0dq8hi.jpg",
-                "sortOrder": 0,
-                "description": "",
-                "isSelected": true,
-                "blockId": "aad1059d-2130-46a4-b4a3-93b1bc4199e7"
-              }
-            ],
-            "slider": false,
-            "videos": [ ],
-            "enabled": true,
-            "endDate": null,
-            "sortOrder": 0,
-            "startDate": null,
-            "description": ""
-          }
-        ]
+        "popups": [ ]
       },
       "theme": {
         "font": {
